@@ -2,25 +2,10 @@
 
 using namespace std;
 
-int kali(int a,int b){
-	int hasil = a * b;
-	return hasil;
-}
-
-int bagi(int a,int b){
-	int hasil = a / b;
-	return hasil;
-}
-
-int tambah(int a,int b){
-	int hasil = a + b;
-	return hasil;
-}
-
-int kurang(int a,int b){
-	int hasil = a * b;
-	return hasil;
-}
+int kali(int a,int b);
+int bagi(int a,int b);
+int tambah(int a,int b);
+int kurang(int a,int b);
 
 
 int main(){
@@ -65,4 +50,24 @@ int main(){
 	}
 	
 	return 0;
+}
+
+int kali(int a,int b){
+	int hasil = a * b;
+	return hasil;
+}
+
+int bagi(int a,int b){
+	int hasil = a / b;
+	return hasil;
+}
+
+int tambah(int a,int b){
+	int hasil = a + b;
+	return hasil;
+}
+
+int kurang(int a,int b){
+	int hasil = a * b;
+	return hasil;
 }
